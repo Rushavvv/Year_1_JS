@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+
+    <head> 
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Printer</title>
+
+        <!-- Head section with link to css file -->
+
+        <link rel="stylesheet" href="css/home.css"> 
+        
+        <!-- internal css used to style the link in the navigation bar -->
+        <style>
+
+          /* Styling for regular links for the nav bar */
+
+            a:link {color: white;}
+            a:visited {color: white;}
+            a:hover {color: #6f4ac6;}
+            a:active{color: white;}
+
+            /* Styling for the links with "split" class */
+            
+            a.split:link {color: white;}
+            a.split:visited {color: white;}
+            a.split:hover {color: #6f4ac6;}
+            a.split:active{color: white;}
+
+            /* Styling for the links with "buttonlink" class */
+
+            a.buttonlink:link {color: white;}
+            a.buttonlink:visited {color: white;}
+            a.buttonlink:active{color: white;}
+
+          
+            /* Styling for images to set both height and width to 100% */ 
+
+            img{
+                width: 100%;
+                height: 100%;
+            }
+            
+        </style>
+
+       
+        
+
+    </head>
+
+        <!-- Body of the home page -->
+
+    <body>
+    
+    <!-- Nav bar with logo and links -->
+    <div class="headingall">
+      <table style="padding-top: 10px; padding-right:4px;">
+        <tr class="headingflex">
+          <td>
+
+            <!-- Logo that links to home page -->
+            <a href="Home.html"><img src="images/logo.jpeg" alt="logo" style="width: 300px; flex: 20%; size: 70%;"></a>
+
+          </td>
+          <td>
+
+            <!-- Heading that links to home page -->
+            <a href="Home.html"><h1 class="heading" style="float: right; background-color: black;">Printfinity</h1></a>
+          </td>
+
+          <td style=" flex: 50%; padding-bottom: 15px; padding-left: 510px; padding-top: 75px; padding-right: 0;margin-right: 0;">
+
+            <!-- The main navigation menu of the home page to lead to other pages -->
+            <div id="Sidenav" class="topnav">    
+            
+              &nbsp;<a style="text-decoration: none;" href="html/Products.html"><img class="icon" src="images/shopping-cart.png" style="width: 4%; padding-right: 5px;"> Products</a>
+              <a style="text-decoration: none;" href="html/Research.html" id="research"><img class="icon" src="images/search.png" style="width: 4%; padding-right: 5px;">Research</a>
+              <a style="text-decoration: none;" href="html/Blog.html" id="blog"><img class="icon" src="images/envelop.png" style="width: 4%; padding-right: 5px;">Blog</a> 
+              <a style="text-decoration: none;" href="html/About.html" style="margin-left:40px ;"><img class="icon" src="images/Users.png" style="width: 4%; padding-right: 5px;">About</a>
+              </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+
+    <!-- Intro of the home page with video background and overlay text -->
+    <div class="video">
+
+      <video autoplay loop muted>
+          <source src="images/background(1).mp4" type="video/webm">
+      </video>
+
+      <div class="overlay">
+
+        <h3>Welcome to Printfinity</h3>
+        <p>Step into a world where printing isn't just a function, it's an experience tailored to meet your unique needs.</p>
+      </div>
+    </div>
+
+        <br><br>
+
+    
+    
+      <!-- Products section with images and prices -->
+      <div class="products">
+        
+        <hr color="white" style="width: 848px; margin-left: 590px; height: 3px; margin-top: 40px; border-radius: 50px;">
+        <hr color="white" style="width: 850px; margin-left: 0px; height: 3px; margin-top: 30px; border-radius: 50px;">
+
+        <h2 class= "popular">Popular Products</h2>
+        <br>
+        <p style="text-align: center; color: #000000;"> Check out some of our best sellers and our most frequent customer's favourites! </p>
+        
+        <!-- Flex containing to display the products with equal sizing -->
+        <div class="flex-container">
+        
+          <!-- Left product -->
+          <div class="flex-left">
+            <img src="images/GalleryImg1.jpeg" style="padding-left: 50px; width: 70%; margin-bottom: -120px; height: 55%;">
+            <div class="txtbg1">
+              <h3 style="text-align: center; margin-bottom: -130px;"> PIXMA G4770 </h3>
+              <p style="text-align: center;">Rs 40,000</p>
+            </div>
+         </div>
+
+
+          <!-- Middle product -->
+          <div class="flex-mid" style="background-color: black; color: white;">
+
+            <img src="images/GalleryImg2.jpeg" style="padding-left: 60px; width: 70%; margin-bottom: -130px; height: 55%;">
+            <div class="txtbg2">
+              <h3 style="text-align: center; margin-bottom: -130px;">PIXMA G4770</h3>
+              <p style="text-align: center;">Rs 80,000</p>
+            </div>
+
+          </div>
+
+
+          <!-- Right product -->
+          <div class="flex-right">
+            <img src="images/GalleryImg4.jpeg" style="padding-left: 50px; width: 70%; margin-bottom: -130px; height: 55%;">
+            <div class="txtbg4">
+              <h3 style="text-align: center; margin-bottom: -130px;">PIXMA G4770</h3>
+              <p style="text-align: center;">Rs 100,000</p>
+            </div>
+          </div>
+
+
+        </div>
+
+        <hr color="white" style="width: 848px; margin-left: 590px; height: 3px; margin-top: 40px; border-radius: 50px;">
+        <hr color="white" style="width: 850px; margin-left: 0px; height: 3px; margin-top: 30px; border-radius: 50px;">
+
+      </div>
+
+      <!-- Table with image slider and text beside it -->
+      <table style="padding-top: 150px; padding-bottom: 150px; background-color: #0d1d15;">
+ 
+      <tr>
+
+        <!-- Image slider -->
+        <td style="width: 60%;">
+      <div class="slider">
+        <div id="img">
+            <img src="images/sliderimg1.jpeg">
+        </div>
+      </div>
+      </td>
+
+      <!-- Text for slider -->
+      <td>
+      <div class="slidertxt">
+        <h3>Crafted with Inspiration: Our Website's Journey</h3>
+        <p style="text-align: left; font-size: 25px;">To create the best online space for shoppers we drew inspiration from many sources across the internet.
+        We took inspiration from many leading tech websites of the world and embraced the visually appealing layouts.</p>
+      </div>
+      </td>
+      </tr>
+      </table>
+  
+
+      <!-- Internal JavaScript for the image slider-->
+      <script>
+          var images = ['images/sliderimg1.jpeg','images/sliderimg2.jpeg','images/sliderimg3.jpeg','images/sliderimg4.jpeg'];
+  
+          var x = 0;
+          var imgs = document.getElementById('img');
+          setInterval(slider, 1800);
+  
+          function slider(){
+              if(x < images.length)
+              {
+                  x =  x + 1; 
+              }
+  
+              else{
+                  x = 1;
+              }
+              imgs.innerHTML = "<img src=" + images[x - 1] + ">";
+          }
+  
+      </script>
+
+
+  <!-- Introduction to the blog section of the home page -->
+   
+  <div class="intro"> 
+    <table>
+      <tr>
+  <div class="intro"> 
+      <td class = "firstintro">
+        <h1 class="introheading">"The Impact of Technology" in Our Blog Section</h1>
+        <p class="intropara">In the "Impact of Technology" series, we discuss the evolution of tech and printers. Join the conversation! Engage with our community through interactive discussions on the blog.
+        </p>
+        <br>
+        <a href="html/Blog.html" class="buttonlink"><button type="button" class="button1">Read Now</button></a>
+      </td>
+      <td>
+        <img src="images/shaq4.jpeg" style="float: right; width: 120%; padding-right: -100px; margin-right: -5px;"> 
+      </td>
+    </tr>
+  </table>
+
+  </div>
+     
+    </body>
+
+     
+    <!-- Footer section with company links and information -->
+    <footer>
+      <div class="ending">
+        <h5 style="background-color:black; color: grey; padding-top: 20px; padding-left: 20px;">Country/Region: Nepal <p style="float: right; padding-right: 20px;">&copy; 2024 PRINTFINITY. All rights reserved.</p></h5>
+        <hr color="grey" style="width: 1435px; margin-left: 0px; height: 1px;">
+
+      <table style="color: grey; width: 100%; padding-left: 20px">
+        <div>
+          <tr>
+            <td>
+              Our Address
+            </td>
+
+            <td>
+              Products
+            </td>
+
+            <td>
+              Company
+            </td>
+
+            <td>
+              Find us on
+            </td>
+  
+          </tr>
+
+          <tr>
+
+            <td>
+              Budhanilkantha
+              <br>
+              Smakhushi
+              <br>
+              Patan
+
+            </td>
+
+            <td>
+              Ink Printers 
+              <br>
+              Laser Printers
+              <br>
+              Scanners
+            </td>
+
+            <td>
+              <a href="html/Products.html" style="text-decoration: none; color: grey;">Products</a>
+              <br>
+              <a href="html/Research.html" style="text-decoration: none; color: grey;">Research</a>
+              <br>
+              <a href="html/Blog.html" style="text-decoration: none; color: grey;">Blog</a>
+              <br>
+              <a href="html/About.html" style="text-decoration: none; color: grey;">About Us</a>
+            </td>
+
+            <td class="footerlinks">
+                <br>
+                <a href="#">FaceBook</a>
+                <br>
+                <a href="#">Intsagram</a>
+                <br>
+                <a href="#">Linkdin</a>
+                <br>
+                <a href="#">Youtube</a>
+                <br>
+                <a href="#">X</a>
+                <br>
+                Printfinity@gmail.com
+                
+            </td>          
+          
+
+          </tr>
+        </div>
+
+      </table>
+    </footer>
+
+  
+
+
+</html>
