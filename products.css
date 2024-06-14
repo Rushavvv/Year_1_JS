@@ -1,0 +1,459 @@
+/* Apply max-width to all elements to ensure responsive design */
+*{
+    max-width: 100%;
+    
+  }
+  
+  /* Body and HTML styles */
+  body,html {
+      
+      
+      
+      height: auto;
+      background-position:bottom;
+      background-size:100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100%;
+      width: 100%;
+      margin: 0;
+      background-color: rgb(164, 164, 176);
+  
+  
+  } 
+  
+  /* Top navigation styles */
+  .topnav{
+      overflow: hidden;
+      text-align: left;
+      font-size: 21.5px;
+      
+         
+  }
+  
+  .topnav a{
+    padding-right: 20px;
+    
+  }
+  
+    /* Icon hover effect */
+  .icon:hover{
+    transform: scale(1.2);
+  }
+
+  /* Heading styles */
+  .headingall{
+    background-color: black;
+    margin-bottom: -50px;
+    
+  }
+  
+  .headingflex{
+    display: flex;
+  }
+  
+  .heading {
+      color:#47669c;
+      text-align: left;
+      font-size: 50px;
+      font-family:American Typewriter, serif;
+      background-color: rgb(255, 255, 255);
+      margin-top: 0px;
+      margin-bottom: 30px;
+      flex: 50%;
+      padding-top: 40px;
+      
+      
+         
+  }
+
+
+  
+/* Section with product cards */
+.mysection{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+}
+
+.container{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.cards{
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.cards div{
+    margin: 20px;
+}
+
+/* Styles for individual product cards */
+.card1{
+    height: 400px;
+    width: 350px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 30px;
+    transition: 0.7s;
+    background-color: white;
+
+}
+
+.card1:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.card2{
+    height: 400px;
+    width: 350px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 30px;
+    transition: 0.7s;
+
+}
+
+.card2:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.card3{
+    height: 400px;
+    width: 350px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 30px;
+    transition: 0.7s;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.card3:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+/* Main section with printer information */
+
+.main{
+    display: flex;
+    margin: 10px;
+    padding-top: 40px;
+}
+
+.box{
+    width: 49%;
+    background-image: url(../images/stars.jpg);
+    color: white;
+    margin: 6px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: center;
+    padding-top: 10px;
+    transition: 0.5s;
+}
+
+.box:hover{
+    transform: scale(1.01);
+    cursor: pointer;
+}
+
+.box2{
+    width: 49%;
+    background-color: #F7FBFF;
+    color: black;
+    margin: 6px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: center;
+    padding-top: 10px;
+    transition: 0.5s;
+}
+
+.box2:hover{
+    transform: scale(1.01);
+    cursor: pointer;
+}
+
+.fafa:link{
+    color: black;
+}
+
+.fafa:active{
+    color: black;
+}
+
+.fafa:visited{
+    color: black;
+}
+
+/* Second section with more printers */
+.seconddown{
+    display: flex;
+    margin: 10px;
+    padding: 0px;
+}
+
+.secondbox{
+    width: 49%;
+    background-color: #F7FBFF;
+    color: black;
+    margin: 6px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: center;
+    padding-top: 0px;
+    transition: 0.5s;
+}
+
+.secondbox:hover{
+    transform: scale(1.01);
+    cursor: pointer;
+}
+
+
+.secondbox2{
+    width: 49%;
+    background-image: url(../images/stars.jpg);
+    color: white;
+    margin: 6px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: center;
+    padding-top: 10px;
+    transition: 0.5s;
+}
+
+.secondbox2:hover{
+    transform: scale(1.01);
+    cursor: pointer;
+}
+
+
+
+.contains{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+
+.boxes{
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-evenly;
+}
+    
+
+.boxes div{
+    margin: 20px;
+}
+
+.baksa{
+    height: 96%;
+    width: 70%;
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    background-image: url(../images/europe.jpg);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+
+}
+
+.buttonharu{
+    display: flex;
+    padding-left: 35%;
+    padding-bottom: 30px;
+    position: relative;
+    bottom: 30px;
+}
+
+.buttonone{
+    margin-top: 10px;
+}
+
+.buttontwo{
+    margin-top: 10px;
+}
+
+.buttonone button{
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.buttontwo button{
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+
+.buttonone:hover{
+    transform: scale(1.01);
+    cursor: pointer;
+    color: black;
+}
+
+.buttontwo:hover{
+    transform: scale(1.01);
+    cursor: pointer;
+    color: black;
+}
+
+
+
+.classes {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+/* Styles for product items */
+
+.one {
+    margin-bottom: 20px;
+}
+
+
+.item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.item-pho img {
+    width: 100%;
+    height: 200px;
+    max-width: 100%;
+}
+
+.description {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.contained .product-image{
+    width: 60%;
+    height: 60%;
+}
+
+.printy {
+    font-size: 14px;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.printy .del{
+    color: #F7FBFF;
+}
+
+.open-popup-btn {
+    display: block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #0c3e73;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.open-popup-btn:hover {
+    background-color: #0056b3;
+}
+
+
+.contained{
+    display: flex;
+}
+
+.product-image{
+    flex: 50%;
+    float: left;
+}
+
+.product-image img{
+    height: auto;
+}
+
+.product-details{
+    flex: 50%;
+    float: right;
+}
+
+/* Styles for popups */
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+
+
+
+.popup-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    height: 45%;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #aaa;
+}
+
+.close:hover {
+    color: #555;
+}
+
+.ftext{
+    padding-left: 50px;
+  }
+  
+
+/* Footer styles */
+  
+  .ending{
+      background-color: black;
+      margin-top: -25px;
+  }
+  
+  .footerlinks a{
+  
+    text-decoration: none;
+    color: grey;
+  }
+  

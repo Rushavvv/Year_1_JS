@@ -1,0 +1,143 @@
+*{
+    max-width: 100%;
+  }
+  
+  body,html {
+      
+      
+      
+      height: auto;
+      background-position:bottom;
+      background-size:100cqmax;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100%;
+      width: 100%;
+      margin: 0;
+      background-color: rgb(17, 17, 17)
+  
+  
+  } 
+  
+  .about{
+    padding-top: -10px;
+    margin-top: -80px;
+    margin-bottom: -99.5px;
+  }
+  
+  .topnav{
+      overflow: hidden;
+      text-align: left;
+      font-size: 21.5px;
+      
+         
+  }
+  
+  .topnav a{
+    padding-right: 20px;
+    
+  }
+  
+  .icon:hover{
+    transform: scale(1.2);
+  }
+  .headingall{
+    background-color: black;
+    margin-bottom: -0px;
+    padding-top: -20px;
+
+    
+  }
+  
+  .headingflex{
+    display: flex;
+  }
+  
+  .heading {
+      color:#47669c;
+      text-align: left;
+      font-size: 50px;
+      font-family:American Typewriter, serif;
+      background-color: rgb(255, 255, 255);
+      margin-top: 0px;
+      margin-bottom: 30px;
+      flex: 50%;
+      padding-top: 40px;
+      
+      
+         
+  }
+  
+  .header{
+    color: rgb(33, 95, 119);
+    text-align: center;
+    font-size: 70px;
+}
+
+.flex-container1{
+    display: flex;
+}
+
+.flex-container1 div{
+    background-color: black;
+    border-radius: 12px;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin: 20px;
+}
+
+.flex-container1 div:hover{
+  transform: scale(1.05);
+}
+
+
+
+.Rushav{
+    flex: 33%;
+}
+
+.Anshuman{
+    flex: 33%;
+}
+
+.Subin{
+    flex: 33%;
+}
+
+.forms{
+  background-image: url(../images/formbg.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  margin-top: 100px;
+  padding-bottom: 82px;
+  padding-top: 100px;
+}
+
+.forms form{
+  opacity: 90%;
+  background-color: rgb(196, 194, 194);
+  border-radius: 12px;
+  width: 100%;
+  margin-top: 80px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin-left: 380px; 
+}
+
+.ftext{
+  padding-left: 50px;
+}
+
+
+.ending{
+    background-color: black;
+    margin-top: -25px;
+}
+
+.footerlinks a{
+
+  text-decoration: none;
+  color: grey;
+}
